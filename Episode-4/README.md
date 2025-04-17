@@ -1,4 +1,4 @@
-Qun. What is HTML?
+`Qun. What is HTML?
 Ans: HTML (HyperText Markup Language) is the standard language used to create and design web pages.
 It tells the browser what content to show and how to structure it using elements like headings, paragraphs, images, links, etc.
 
@@ -32,7 +32,7 @@ Ans: Steps to Print “Hello World” in HTML
 
 3.Write This HTML Code:
 
-<!DOCTYPE html>
+<pre><code>```<!DOCTYPE html>
 <html>
 <head>
   <title>Hello Page</title>
@@ -41,7 +41,7 @@ Ans: Steps to Print “Hello World” in HTML
   <h1>Hello World</h1>
 </body>
 </html>
-
+ ```</code></pre>
 4.Run with Live Server
 
 ✅ Right-click on the file
@@ -88,3 +88,4 @@ It's used to explain code or hide parts during testing.
 
 Syntax of HTML Comment:
 <!-- This is a comment -->
+`
