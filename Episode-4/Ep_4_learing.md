@@ -89,4 +89,5 @@ It's used to explain code or hide parts during testing.
 
 Syntax of HTML Comment:
 <!-- This is a comment -->
+
 `
