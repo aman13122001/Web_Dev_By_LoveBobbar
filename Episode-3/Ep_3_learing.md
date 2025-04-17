@@ -70,7 +70,7 @@ Simple Example:
 -> The Server sends back the web page data
 -> The Client displays it for you
 
-Qun.What is ISP and need of it.
+Qun.What is ISP and it's need.
 Ans:ISP stands for Internet Service Provider.
     It is a company that provides you access to the internet.
 
