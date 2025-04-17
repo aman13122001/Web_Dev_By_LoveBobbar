@@ -1,4 +1,4 @@
-```Qun. What is HTML?
+Qun. What is HTML?
 Ans: HTML (HyperText Markup Language) is the standard language used to create and design web pages.
 It tells the browser what content to show and how to structure it using elements like headings, paragraphs, images, links, etc.
 
@@ -32,7 +32,7 @@ Ans: Steps to Print “Hello World” in HTML
 
 3.Write This HTML Code:
 
-<pre>```<!DOCTYPE html>
+<pre> ```html <!DOCTYPE html>
 <html>
 <head>
   <title>Hello Page</title>
@@ -41,7 +41,7 @@ Ans: Steps to Print “Hello World” in HTML
   <h1>Hello World</h1>
 </body>
 </html>
- ```</pre>
+``` </pre>
 4.Run with Live Server
 
 ✅ Right-click on the file
@@ -51,18 +51,18 @@ Ans: Steps to Print “Hello World” in HTML
 
 ✅ Basic Structure of an HTML File:
 
-✅ <!DOCTYPE html>: Tells the browser this is an HTML5 document.
+✅ <!DOCTYPE html>:- Tells the browser this is an HTML5 document.
 
-✅ <html>...</html>: The root element. Everything on the webpage goes inside this.
+✅ <html>...</html>:- The root element. Everything on the webpage goes inside this.
 
-✅ <head>...</head>:Contains page settings (not visible to users).<head> controls what’s in the tab and behind the scenes.
+✅ <head>...</head>:-Contains page settings (not visible to users).<head> controls what’s in the tab and behind the scenes.
    Examples: title, links to CSS, metadata.
 
-✅<title>Page Title</title>: Sets the name of the page tab in the browser.
+✅<title>Page Title</title>:- Sets the name of the page tab in the browser.
 
-✅ <body>...</body>: Contains the visible content of the webpage.<body> is what you see on the screen.
+✅ <body>...</body>:- Contains the visible content of the webpage.<body> is what you see on the screen.
 You write headings, paragraphs, images, buttons, etc. here.
-✅ <h1>Hello World</h1>: This displays a big heading on the page with the text:
+✅ <h1>Hello World</h1>:- This displays a big heading on the page with the text:
 👉 Hello World
 
 Qun. What is an HTML Element?
