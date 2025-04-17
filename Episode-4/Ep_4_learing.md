@@ -32,7 +32,7 @@ Ans: Steps to Print “Hello World” in HTML
 
 3.Write This HTML Code:
 
-<!DOCTYPE html>
+`<!DOCTYPE html>
 <html>
 <head>
   <title>Hello Page</title>
@@ -41,6 +41,7 @@ Ans: Steps to Print “Hello World” in HTML
   <h1>Hello World</h1>
 </body>
 </html>
+`
 
 4.Run with Live Server
 
