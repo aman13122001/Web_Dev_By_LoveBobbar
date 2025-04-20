@@ -89,7 +89,7 @@ Syntax:
 <111!-- Form controls go here -->  
 </form>  
 
-<inpur> tag: With the help of this tag, we can enable interactive control in the form. It also depends on the various fields of the attribute type.
+12.<inpur> tag: With the help of this tag, we can enable interactive control in the form. It also depends on the various fields of the attribute type.
 
 Syntax:
 <input type="input-type" name="input-name" value="default-value">  
