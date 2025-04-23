@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body align = "center">
+    <h3 align = "left">Example 1</h3>
+    <table border="2">
+        <thead>
+            <th>Student Id</th>
+            <th>Student Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>Aman</td>
+                <td>Male</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Ankit</td>
+                <td>Male</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Suman</td>
+                <td>Male</td>
+                <td>23</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <h3 align = "left">Use of Colspan and rowspan for murging the row and Column in table</h3>
+    <table border="2">
+        <thead>
+            <th>Student Id</th>
+            <th>Student Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td colspan="2">Aman</td>
+               
+                <td rowspan="3">24</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Ankit</td>
+                <td>Male</td>
+                
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Suman</td>
+                <td>Male</td>
+               
+            </tr>
+        </tbody>
+    </table>
+
+    <h3 align = "left">Example 2</h3>
+    <table border="2">
+        <tbody>
+            <tr>
+                <td>Column 1</td>
+                <td>Column 2</td>
+                <td>Column 3</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Row 1 Cell 1</td>
+                <td>Row 1 Cell 2</td>
+                <td>Row 1 Cell 3</td>
+
+
+            </tr>
+            <tr>
+             
+                <td>Row 2 Cell 2</td>
+                <td>Row 2 Cell 3</td>
+
+            </tr>
+            <tr>
+                <td colspan="3">Row 3 Cell 1</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3 align = "left">Example 3</h3>
+
+    <table border="1">
+        <thead>
+            <th>No.</th>
+            <th>Full name</th>
+            <th>Position</th>
+            <th>Salary</th>
+            <th>Type</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Aman</td>
+                <td>Founder Apple</td>
+                <td>$1000</td>
+                <td rowspan="4"> Company Founder</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Ankit</td>
+                <td>Founder Apple</td>
+                <td>$1200</td>
+                
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Suman</td>
+                <td>Founder Apple</td>
+                <td>$1100</td>
+                
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Ankit</td>
+                <td>Founder Apple</td>
+                <td>$1200</td>
+                
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" align="center">Total Expense:</td>
+                <td>$4000</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h3 align = "left">Example 3</h3>
+    <br>
+    <table border="2
+    ">
+    <thead>
+
+        <th>Country</th>
+        <th>State</th>
+        <th>City</th>
+        <th>Street</th>
+        <th>Male</th>
+        <th>Frmale</th>
+        <th>Others</th>
+ 
+
+    </thead>
+    
+       <tbody>
+        <tr>
+            <td rowspan="8">1</td>
+            <td rowspan="4">Kerala</td>
+            <td rowspan="2">Cochin</td>
+            <td>New Street</td>
+            <td>500</td>
+            <td>600</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>Main Street</td>
+            <td>500</td>
+            <td>288</td>
+            <td>2</td>
+            
+        </tr>
+        <tr>
+            <td rowspan="2">Trivandrum</td>
+            <td>Gura street</td>
+            <td>500</td>
+            <td>600</td>
+            <td>10</td>
+            
+            
+        </tr>
+        <tr>
+            <td>TVK street</td>
+            <td>500</td>
+            <td>600</td>
+            <td>2</td>
+           
+        </tr>
+        <tr>
+            <td rowspan="4">Maharastra</td>
+            <td rowspan="2">Mumbai</td>
+            <td>krisha street</td>
+            <td>700</td>
+            <td>800</td>
+            <td>1</td>
+           
+        </tr>
+        <tr>
+            <td>Main street</td>
+            <td>500</td>
+            <td>600</td>
+            <td>3</td>
+            
+        </tr>
+        <tr>
+            <td rowspan="2">Surath</td>
+            <td>New street</td>
+            <td>500</td>
+            <td>600</td>
+            <td>4</td>
+            
+        </tr>
+        <tr>
+            <td>Billa street</td>
+            <td>500</td>
+            <td>600</td>
+            <td>2</td>
+            
+        <tr>
+            <td rowspan="2">2</td>
+            <td rowspan="2">Alaska</td>
+            <td rowspan="2">AKA Cental</td>
+            <td>New Street</td>
+            <td>200</td>
+            <td>210</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Cross Street </td>
+            <td>1000</td>
+            <td>1050</td>
+            <td>10</td>
+           
+        </tr>
+    </tbody>
+    </table>
+
+    <h3 align = "left">Home Work</h3>
+
+    <table border="1">
+
+        
+        <tbody>
+            <th rowspan="3">Date</th>
+            <th colspan="5">Seminar</th>
+            <tr>
+                <td colspan="2">Schedule</td>
+                <td rowspan="2">Topic</td>
+                
+            </tr>
+            <tr>
+                <td>Bigin</td>
+                <td>End</td>
+                
+            </tr>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8:00 am</td>
+                <td rowspan="2">5:00 am</td>
+                <td>Introduction to XML</td>
+                
+            
+            </tr>
+            <tr>
+                <td>Validity DTD and Relux NG</td>
+                
+            </tr>
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td>8:00 am</td>
+                <td>11:00 am</td>
+                <td rowspan="2">XPath</td>
+            </tr>
+            <tr>
+                <td>11:00 am</td>
+                <td>11:00 am</td>
+               
+            </tr>
+            <tr>
+                <td>11:00 am</td>
+                <td>11:00 am</td>
+                <td>XSL T</td>
+                
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>8:00 am</td>
+                <td>12:00</td>
+                <td>XSL formatting Objects</td>
+            </tr>
+            
+        </tbody>
+    </table>
+    
+</body>
+</html>
