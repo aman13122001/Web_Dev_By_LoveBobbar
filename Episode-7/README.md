@@ -67,18 +67,19 @@ rowspan attribute :- HTML Table with Colspan allows you to merge or combine adja
 
 syntex:-
 <tr>
-    <th colspan="2">Name</th>
+    <th>Name</th>
     <th>Class</th>
+    <th rowspan="3">MVM School</th>
 </tr>
+
 
 colspam attribute :- The HTML attribute rowspan determines how many rows a specific cell in a table should cover. When a cell spans multiple rows, it occupies the space of those rows within the table.
 
 syntex:-
 
 <tr>
-    <th>Name</th>
+    <th colspan="2">Name</th>
     <th>Class</th>
-    <th rowspan="3">MVM School</th>
 </tr>
  
 
