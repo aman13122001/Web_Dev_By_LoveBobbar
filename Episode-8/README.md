@@ -1,5 +1,5 @@
 ````
-Qun. What is forms ?
+Qun. What is form ?
 Ans: An HTML form is a section of a document which contains controls such as text fields, password fields, checkboxes, radio buttons, submit button, menus etc.
 
 An HTML form facilitates the user to enter data that is to be sent to the server for processing such as name, email address, password, phone number, etc.
@@ -134,7 +134,7 @@ Example:
     <input type="submit" value="search">  
 </form>
 
-*** form Elemnets ***
+*** form Elements ***
 
 1.input :- The HTML <input> element is fundamental form element. It is used to create form fields, to take input from user. We can apply different input filed to gather different information form user. Following is the example to show the simple text input.
 
