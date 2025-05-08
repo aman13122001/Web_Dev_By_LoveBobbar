@@ -1,0 +1,24 @@
+/* Element Selectors */
+p{
+    color: brown;
+}
+
+/* Id Selectors */
+
+#article{
+   background-color: rgb(130, 227, 130); 
+}
+
+/* Class Selectors */
+.paraClass{
+    background-color: rgb(234, 234, 156);
+}
+/* Group Selectors */
+
+p,article{
+    width: 500px;
+}
+/* target the specific class */
+p.paraClass{
+    text-align: center;
+}
