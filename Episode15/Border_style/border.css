@@ -1,0 +1,47 @@
+h1 {
+  background-color: aquamarine;
+  /* border-style: solid;
+    border-width:2px ;
+    border-color: rgb(221, 18, 18); */
+
+  /* border-top-left-radius: 5px;
+    border-left: solid black 5px; */
+
+  border: 3px solid brown;
+  border-radius: 40px;
+  text-align: center;
+
+  /* height & Width */
+
+  width: 350px;
+  height: 200px;
+}
+span{
+    border: 3px solid brown;
+    border-radius: 4px;
+    /* hight and width not Working */
+    height: 20px;
+    width: 343px;
+}
+.firstpara {
+  background-color: blanchedalmond;
+  border: 3px solid black;
+  border-radius: 4px;
+  text-align: center;
+  width: 350px;
+  height: 200px;
+}
+.secondpara {
+  background-color: beige;
+  border: 3px solid black;
+  border-radius: 4px;
+  text-align: center;
+  width: 350px;
+}
+.thirdpara {
+  background-color: yellow;
+  border: 3px solid black;
+  border-radius: 4px;
+  text-align: center;
+  width: 350px;
+}

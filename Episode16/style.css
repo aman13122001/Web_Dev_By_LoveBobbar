@@ -1,0 +1,59 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+#block{
+    height: 200px;
+    width: 250px;
+    /* padding: 30px;
+    margin: 40px; */
+    border: 3px solid red;
+    
+}
+.box{
+width: 300px;
+height: 300px;
+border: 3px solid rgb(14, 12, 12);
+padding: 100px;
+}
+
+#span1{
+    border: 2px solid rgb(211, 51, 11);
+    /* hight and Width not working */
+    height: 400px;
+    width: 800px;
+    margin: 30px;
+    padding: 23px;
+   
+
+
+}
+#span2{
+    border: 2px solid blue;
+    /* hight and Width not working */
+    height: 400px;
+    width: 800px;
+    /* margin not working */
+    margin: 30px;
+    /* padding is working */
+    padding: 23px;
+    /* using display:block inline element change the behivear like block element. */
+    display: block;
+
+
+}
+
+#span3{
+    border: 2px solid rgb(181, 24, 205);
+    height: 300px;
+    width: 200px;
+    margin: 30px;
+    padding: 29px;
+    /* display: inline-block; with the use of it we can add custam witdh,hight and maegin  */
+    display: inline-block;
+    
+}
