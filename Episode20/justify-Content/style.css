@@ -1,0 +1,35 @@
+.container{
+    background-color: beige;
+    border: 5px solid black;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    /* justify-content: start;
+    justify-content: end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around; */
+    justify-content: space-evenly;
+    height: 500px;
+    
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid brown;
+    margin: 2px;
+    padding: 2px;
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: rgb(202, 144, 35);
+}
+#box3{
+    background-color: rgb(74, 54, 141);
+}
+#box4{
+    background-color: rgb(19, 104, 104);
+}
