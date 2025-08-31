@@ -1,0 +1,34 @@
+.container{
+    border: 2px solid black;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    width: 680px;
+}
+
+#boxleft{
+    background-color: aquamarine;
+    border: 1px solid blue;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+#boxright{
+    background-color: aquamarine;
+    width: 50%;
+    /* border: 1px solid blueviolet; */
+}
+p{
+    height: 47%;
+}
+#text1{
+    background-color: hotpink;
+}
+#text2{
+    background-color: palegreen;
+}
+@media (max-width:640px) {
+    .container{
+        flex-direction: column;
+    }
+}

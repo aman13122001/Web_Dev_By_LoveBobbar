@@ -4,9 +4,9 @@
     margin: 2px;
     padding: 2px;
     display: flex;
-    /* flex-wrap: wrap-reverse; */
-    flex-flow: wrap;
-}
+    flex-wrap: wrap-reverse;
+     /* flex-flow: wrap; */
+} 
 .container2{
     background-color: beige;
     border: 5px solid black;
