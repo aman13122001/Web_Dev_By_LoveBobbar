@@ -1,0 +1,44 @@
+
+/* Custom variable  */
+:root{
+    --primary-color:aquamarine;
+    --custom-width:330px;
+}
+
+
+.container {
+  background-color: beige;
+  height: 100vh;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add Shadow on box */
+.box {
+  height: 330px;
+  width: var(--custom-width);
+  background-color: var(--primary-color);
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  /* box-shadow: 10px 15px brown; */
+
+  box-shadow: 10px 15px 5px brown;
+
+  /* box-shadow: 10px 15px 5px 50px brown; */
+
+  /* box-shadow:inset 10px 15px brown; */
+
+  /* box-shadow: 10px 15px brown, -15pzx 8px green; */
+}
+
+/* Add Shadow on text */
+h1{
+    text-shadow: 2px 3px 2px rgb(202, 95, 95);
+    /* text-shadow: yellow 2px 3px; */
+
+    /* by default shadow color is black */
+    /* text-shadow: 12px 13px; */
+}
